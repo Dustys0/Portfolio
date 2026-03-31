@@ -26,7 +26,11 @@ body {
     max-width: 1000px;
     padding: 40px 0;
 }
-
+.nav-grid {
+    display: grid; /* This is the most important line */
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
 /* Header & Navigation */
 header {
     display: flex;
