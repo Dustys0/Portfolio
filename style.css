@@ -105,23 +105,30 @@ header {
 }
 
 /* Cyan Glow (Projects) */
-.primary-box:hover {
+.primary-box:hover { 
     border-color: var(--primary-glow);
-    box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
+    /* Layer 1: Sharp inner glow | Layer 2: Soft outer bloom */
+    box-shadow: 0 0 15px 
+        rgba(0, 255, 255, 0.3), 0 0 50px 
+        rgba(0, 255, 255, 0.15); 
     transform: translateY(-5px);
-}
-
-.primary-box:hover .box-icon { color: var(--primary-glow); }
-
+} 
+.primary-box:hover 
+.box-icon, .primary-box:hover h2 { 
+    color: var(--primary-glow);
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5); } 
 /* Magenta Glow (Extras) */
-.secondary-box:hover {
+.secondary-box:hover { 
     border-color: var(--secondary-glow);
-    box-shadow: 0 0 30px rgba(255, 0, 255, 0.15);
-    transform: translateY(-5px);
-}
-
-.secondary-box:hover .box-icon { color: var(--secondary-glow); }
-
+    /* Layer 1: Sharp inner glow | Layer 2: Soft outer bloom */
+    box-shadow: 0 0 15px 
+        rgba(255, 0, 255, 0.3), 0 0 50px 
+        rgba(255, 0, 255, 0.15); transform: translateY(-5px);
+} 
+.secondary-box:hover 
+.box-icon, .secondary-box:hover h2 { 
+    color: var(--secondary-glow); 
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.5); }
 /* Footer */
 footer {
     margin-top: 80px;
