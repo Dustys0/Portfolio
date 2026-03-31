@@ -3,44 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects | Dusty S.</title>
+    <title>Projects | DUSTY_s0</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="container">
-        <header>
-            <div class="logo">PROJECTS<span>_</span></div>
-            <a href="index.html" class="back-link">< HUB</a>
+        <header class="main-header">
+            <div class="logo-text">PROJECTS<span>_</span></div>
+            <nav class="sub-nav">
+                <a href="index.html" class="nav-item">← Back to Hub</a>
+            </nav>
         </header>
 
-        <main class="project-grid">
+        <section class="about-me">
+            <h1>My Work</h1>
+            <p class="about-text">
+                A collection of tools and systems focused on STEM and software efficiency.
+            </p>
+        </section>
+
+        <nav class="hub-grid">
             
-            <div class="project-card cyan-glow">
-                <h3>Clarifying Concepts</h3>
-                <p>
-                    Educational platform for STEM. 
-                    Tech: HTML, CSS, JS. 
-                    Status: Active.
-                </p>
-                <a href="https://clarifyingconcepts.work.gd/" class="btn">VISIT_SITE</a>
-            </div>
+            <a href="https://clarifyingconcepts.work.gd/" target="_blank" class="hub-box primary-box">
+                <div class="box-content">
+                    <span class="box-meta">PROJECT_01 // STEM</span>
+                    <h2>Clarifying Concepts</h2>
+                    <p>Educational platform simplifying Grade 10-12 Physics and Mathematics through intuitive explanations.</p>
+                    <span class="box-icon">VIEW_SITE →</span>
+                </div>
+            </a>
 
-            <div class="project-card magenta-glow">
-                <h3>Landing Analyzer</h3>
-                <p>
-                    Java-based physics simulation. 
-                    Calculates landing smoothness using descent vectors.
-                </p>
-                <a href="#" class="btn">VIEW_CODE</a>
-            </div>
+            <a href="#" class="hub-box primary-box">
+                <div class="box-content">
+                    <span class="box-meta">PROJECT_02 // JAVA</span>
+                    <h2>Landing Analyzer</h2>
+                    <p>A system analyzing flight data like vertical speed and nose angle to determine landing smoothness.</p>
+                    <span class="box-icon">VIEW_REPO →</span>
+                </div>
+            </a>
 
-            </main>
+            </nav>
 
-        <footer>
-          
+        <footer class="main-footer">
+            <p>— DUSTY_s0 | Project Registry</p>
         </footer>
     </div>
-
 </body>
-            </html>
+</html>
