@@ -37,7 +37,7 @@ body {
     color: var(--neon-cyan);
 }
 
-.project-grid-detailed {
+.project-grid {
     display: grid;
     grid-template-columns: 1fr; /* Stacked for better readability of descriptions */
     gap: 40px;
