@@ -22,38 +22,7 @@ body {
     overflow-x: hidden;
 }
 
-.container {
-    width: 90%;
-    max-width: 900px;
-    padding: 40px 0;
-}
 
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
-}
-
-.logo {
-    font-weight: 800;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-}
-
-.logo span { color: var(--neon-cyan); }
-
-.contact-mini {
-    font-size: 0.8rem;
-    color: var(--text-dim);
-    font-family: monospace;
-}
-
-/* Hero */
-.hero {
-    margin-bottom: 60px;
-}
 /* Projects Page Specifics */
 .back-link {
     text-decoration: none;
